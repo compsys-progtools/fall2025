@@ -35,7 +35,7 @@ project:
         - file: activities/practice.md
         - file: genindex.md
         - file: activities/explore.md
-        - file: activities/build.md
+        - file: activities/buildbadge.md
     - title: FAQ
       children:
         - file: faq/syllabus.md
