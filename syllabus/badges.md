@@ -150,7 +150,7 @@ However, leaving all of the work to the end of the semester is not good for you 
 
 We do not have a final exam, but URI assigns an exam time for every class.  The date of that assigned exam will be the final due date for all work including all revisions. 
 
-
+(badges:deadlines:experience)=
 ### Experience badges
 
 Prepare work tasks must be done before class so that you are prepared.  Missing a prepare task could require you to do an experience report to make up what you were not able to do in class.
@@ -159,20 +159,20 @@ If you miss class, the experience report should be at least attempted/drafted (t
 
 If you miss multiple classes, create a catch-up plan to get back on track by contacting instructor. 
 
-(rp-status)=
+(badges:deadlines:rp)=
 ### Review and Practice Badges 
 
 These badges have 5 stages: 
-- posted: tasks are on the course website([](activities/review) and [](activities/practice)) and an {term}`issue` is created
+- posted: tasks are on the course website([review](activities/review) and [practice](activities/practice)) and an {term}`issue` is created
 - started: one task is attempted and a draft PR is open 
 - completed: all tasks are attempted PR is ready for review, and a review is requested
 - earned: PR is approved (by instructor or a TA) and work is merged
 
 ```{tip}
-these badges *should* be started before the next class. This will set you up to make the most out of each class session. However, only prepare for class tasks have to be done immediately. 
+these badges should *ideally* be started before the next class. This will set you up to make the most out of each class session. However, only prepare for class tasks *must* be done immediately. 
 ```
 
-These badges badges must be *started* within one week of when the are posted (2pm) and *completed* within two weeks. A task is attempted when you have answered the questions or submitted evidence of doing an activity or asked a sincere clarifying question.
+These badges badges must be *started* within one week of when they are posted  and *completed* within two weeks. A task is attempted when you have answered the questions or submitted evidence of doing an activity or asked a sincere clarifying question.
 
 If a badge is planned, but not started within one week it will become expired and ineligble to be earned. You may request extensions to complete a badge by updating the PR message, these will typically be granted. Extensions for starting badges will only be granted in exceptional circumstances.  
 
@@ -184,7 +184,7 @@ Once you have a good-faith attempt at a complete badge, you have until the end o
 Try to complete revisions quickly, it will be easier for you
 ```
 
-
+(badges:deadlines:explore)=
 ### Explore Badges 
 
 Explore badges have  5 stages:
@@ -196,6 +196,7 @@ Explore badges have  5 stages:
 
 Explore badges are feedback-limited. You will not get feedback on subsequent explore badge proposals until you earn the first one.  Once you have one earned, then you can have up to two in progress and two in revision at any given time. At most, you will receive feedback for one explore badge per week, so in order to earn six, your first one must be complete by March 18. 
 
+(badges:deadlines:build)=
 ### Build Badges 
 
 At most one build badge will be evaluated every 4 weeks.  This means that if you want to earn 3 build badges, the first one must be in 8 weeks before the end of the semester, March 4. The second would be due April 1st, and the third submitted by the end of classes, April 29th. 
@@ -215,7 +216,7 @@ this includes minor corrections relative to the readme in the template provided
 
 ## Procedures
 
-(prepare-experience-process)=
+(badges:procedure:experience)=
 ### Prepare work and Experience Badges Process
 
 
@@ -273,7 +274,8 @@ You can, once you know how, do this offline and do the merge with in the CLI ins
 
 +++
 
-(review-practice-process)=
+
+(badges:procedure:reviewpractice)=
 ### Review and Practice Badge 
 
 
@@ -368,7 +370,7 @@ style posted fill:#2cf
 style planned fill:#2cf
 ```
 
-(explore-process)=
+(badges:procedure:explore)=
 ### Explore Badges
 
 
@@ -432,8 +434,7 @@ style earned fill:#2cf
 
 ```
 
-
-(build-process)=
+(badges:procedure:builld)=
 ### Build Badges 
 
 
@@ -502,7 +503,7 @@ style earned fill:#2cf
 
 ```
 
-(badges:community)=
+(badges:process:community)=
 ### Community Badges
 
 You can log them either manualy via files or with help of an action that a past student contributed! 
@@ -541,6 +542,3 @@ flowchart TD
 
 ```
 
-```{code-cell} ipython3
-
-```

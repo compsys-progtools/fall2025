@@ -60,7 +60,7 @@ If you are found to submit work that is not your own for an *explore or build*  
 
 The University is committed to delivering its educational mission while protecting the health and safety of our community. Students who are experiencing symptoms of viral illness should NOT go to class/work. The [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/respiratory-viruses/guidance/index.html) recommends that all people who are experiencing viral illness should stay home and away from others until symptoms improve and they are fever free (without medications) for 24 hours. They should take added precautions for the next 5 days. 
 
-If you miss class once, you **do not need to notify me** in advance.  You can follow the [makeup procedures](expmakeup) on your own.
+If you miss class once, you **do not need to notify me** in advance.  You can follow the [makeup procedures](#expmakeup) on your own.
 
 ### Excused Absences
 
@@ -68,7 +68,7 @@ Absences due to serious illness or traumatic loss, religious observances, milita
 
 **You do not need to notify me in advance.** 
 
-For *short absences* (1-2 classes), for any reason, you can follow the [makeup procedures](expmakeup), no extensions will be provided typically for this; if extenuating circumstances arise, then ask Any instructor.
+For *short absences* (1-2 classes), for any reason, you can follow the [makeup procedures](#expmakeup), no extensions will be provided typically for this; if extenuating circumstances arise, then ask Any instructor.
 
 For *extended excused absences*, (3 or more classes) email Ayman when you are ready to get caught up and she will help you make a plan for the best order to complete missed work so that you are able to participate in subsequent activities. Extensions on badges will be provided if needed for excused absences. In your plan, include what class sessions you missed by date. 
 
