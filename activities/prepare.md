@@ -29,3 +29,11 @@ Badges will be posted as issues and instructions will be here as well.
 
 ```{include} ../_review/2024-09-10.md
 ``` -->
+
+## 2025-09-09
+
+[related notes](../notes/2025-09-09)
+
+Activities:
+```{include} ../_prepare/2025-09-09.md
+```

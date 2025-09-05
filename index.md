@@ -41,12 +41,13 @@ command output
 important line, emphasized
 ```
 
-```{exercise} my-exercise
+```{exercise} exmple-ex
+:label: exmple-ex
 
 Notes will sometimes have exercises marked like this, these are ungraded self-assessments
 ```
 
-::::::{solution} my-exercise
+::::::{solution} exmple-ex
 :label: my-solution
 :class: dropdown
 

@@ -21,3 +21,10 @@ Badges will be posted as issues and instructions will be here as well.
 Activities:
 ```{include} ../_practice/2024-09-05.md
 ``` -->
+## 2025-09-04
+
+[related notes](../notes/2025-09-04)
+
+Activities:
+```{include} ../_practice/2025-09-04.md
+```

@@ -14,20 +14,18 @@ The very top menu with the {fa}`github` logo in it has GitHub level menus that a
 
 ````{grid}
 ```{grid-item}
-:columns: 9
 
 Branch menu & info, file action buttons, download options (green code button)
 ```
 
 ```{grid-item}
-:columns: 3
+
 
 About has basic facts about the repo, often including a link to a documentation page
 ```
 
 
 ```{grid-item-card}
-:columns: 9
 
 File panel
 +++
@@ -41,7 +39,7 @@ file list: a table where the first column is the name, the second column is the 
 
 
 ```{grid-item}
-:columns: 3
+
 
 Releases, Packages, and Environments are optional sections that the repo owner can toggle on and off.  
 
@@ -53,14 +51,12 @@ Releases, Packages, and Environments are optional sections that the repo owner c
 ```
 
 ```{grid-item-card}
-:columns: 9
 
 
 README file
 ```
 
 ```{grid-item}
-:columns: 3
 
 The bottom of the right panel has information about the languages in the project 
 ```

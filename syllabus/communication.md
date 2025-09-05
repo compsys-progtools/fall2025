@@ -40,7 +40,7 @@ For the first week announcements will be made by BrightSpace too, but after that
 :class: dropdown
 :icon: false
 
-Watch the repo and then, after the first class, [claim a community badge](#badges:community) for doing so, using a link to these instructions as the "contribution" like follows.   
+Watch the repo and then, after the first class, [claim a community badge](#badges:process:community) for doing so, using a link to these instructions as the "contribution" like follows.   
 ```
 - [watched the repo as per announcements](https://compsys-progtools.github.io/spring2025/syllabus/communication.html#announcements) 
 ```
@@ -124,7 +124,7 @@ Contribute a TLDR set of tabs or mermaid visual to this section for a community 
 - use the badge issue for comments and @ mention instructors 
 - **send in advance, leave time for a response** 
 - **always** use issues in your repo for content directly related to assignments.  If you {term}`push (changes to a repository)` your partial work to the {term}`repository` and then open an {term}`issue`, we can see your work and your question at the same time and download it to run it if we need to debug something
-- use issues or discussions for questions about this syllabus or class notes. At the top right there's a {term}`GitHub` logo {icon}`github` that allows you to open a {term}`issue` (for a question) or suggest an edit (eg if you think there's a tpo or you find an additional helpful resource related to something)
+- use issues or discussions for questions about this syllabus or class notes. At the top right there's a {term}`GitHub` logo that allows you to open a {term}`issue` (for a question) or suggest an edit (eg if you think there's a tpo or you find an additional helpful resource related to something)
 
 
 ```{attention}

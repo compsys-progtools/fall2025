@@ -13,3 +13,11 @@ Review badges will help you to reinforce what we do in class and guide you to pr
 Activities:
 ```{include} ../_review/2024-09-05.md
 ``` -->
+
+## 2025-09-04
+
+[related notes](../notes/2025-09-04)
+
+Activities:
+```{include} ../_review/2025-09-04.md
+```

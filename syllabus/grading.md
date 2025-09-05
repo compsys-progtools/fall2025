@@ -300,8 +300,23 @@ In the second half of the semester, there will be special *integrative* badge op
 No, you cannot earn practice and review for the same date. 
 ```
 
+(grading:experience)=
 ### Experience Badges 
 
+Here we provide the description of how what experience badges are and how they relate to learning. The [procedures](#badges:procedure:experience) and [deadlines](#badges:deadlines:experience) are on the [Badge Detail page](badges).
+
+
+```{tip}
+On prismia questions, I will generally give a "Last chance to get an answer in" warning before I 
+resume instruction. If you do not respond at all too many times, we will ask you to follow the makeup 
+procedure instead of the In Class proccedure for your experience badge.  
+
+To be sure that your response rate is good, if you are paying attention, but do not have an answer you can use one of the following special commands in prismia: 
+- `\idk`: "I am paying attention, but do not know how to answer this"
+- `\dgt`: "I am paying attention, not really confused, but ran out of time trying to figure out the answer"
+
+you can send these as plain text by pressing {kbd}`enter` (not Mac) or  {kbd}`return` (on Mac)  to send right away or have them render to emoji by pressing {kbd}`tab`
+```
 
 
 (expinclass)=
@@ -324,51 +339,72 @@ You can make up an experience badge by:
 - attaching evidence as indiated in notes OR attending office hours to show the evidence
 
 
-```{tip}
-On prismia questions, I will generally give a "Last chance to get an answer in" warning before I 
-resume instruction. If you do not respond at all too many times, we will ask you to follow the makeup 
-procedure instead of the In Class proccedure for your experience badge.  
-
-To be sure that your response rate is good, if you are paying attention, but do not have an answer you can use one of the following special commands in prismia: 
-- `\idk`: "I am paying attention, but do not know how to answer this"
-- `\dgt`: "I am paying attention, not really confused, but ran out of time trying to figure out the answer"
-
-you can send these as plain text by pressing {kbd}`enter` (not Mac) or  {kbd}`return` (on Mac)  to send right away or have them render to emoji by pressing {kbd}`tab`
-```
 
 
 An experience report is evidence you have completed the activity and reflection questions. The exact form will vary per class, if you are unsure, reach out ASAP to get instructions. These are evaluated only for completeness/ good faith effort.  Revisions will generally not be required, but clarification and additional activity steps may be advised if your evidence suggests you may have missed a step. 
 
-```{admonition} Do you earn badges for prepare for class? 
-:class: checkin, dropdown
+
+::::{exercise}
+:label: preparebadge
+ Do you earn badges for prepare for class? 
+::::
+
+::::{solution} preparebadge
+:class: dropdown
 
 No, prepare for class tasks are folded into your experience badges. 
-```
+::::
 
-```{admonition} What do you do when you miss class? 
-:class: checkin, dropdown
+
+::::{exercise}
+:label: makeup
+
+What do you do when you miss class? 
+::::
+
+::::{solution} makeup
+:class: dropdown
 
 Read the notes, follow along, and produce and experience report or attend office hours. 
-```
+::::
 
 
-```{admonition} What if I have no questions?
-:class: checkin, dropdown
+::::{exercise}
+:label: noqs
+What if I have no questions?
+::::
+
+::::{solution} noqs
+:class:  dropdown
 
 Learning to ask questions is important.  Your questions can be clarifying (eg because you misunderstood something) or show that you understand what we
 covered well enough to think of hypothetical scenarios or options or what might come next.  Basically, focused curiosity. 
-```
+::::
 
 (labcheckout)=
 ### Lab Checkouts
 
 You earn credit for lab by attending and completing core tasks as defined in a lab issue posted to your repo each week.  Work that needs to be correct through revisions will be left to a review or practice badge. 
 
-You will have to have a short meeting with a TA or intructor to get credit for each lab. In the lab instructions there will be a checklist that the TA or instructor will use to confirm you are on track.  In these conversations, we will make sure that you know how to do key procedural tasks so that you are set up to continue working independently. 
+You will have to have a short "checkout" meeting with a TA or intructor to get credit for each lab. In the lab instructions there will be a checklist that the TA or instructor will use to confirm you are on track.  In these conversations, we will make sure that you know how to do key procedural tasks so that you are set up to continue working independently. 
 
-To make up a lab, complete the tasks from the lab issue on your own and attend office hours to complete the checkout. 
+To make up a lab, complete the tasks from the lab issue on your own and attend office hours to complete the checkout.
+
+::::{exercise}
+:label: labcorrect
+
+Do you need to get correct answers on lab tasks? 
+::::
+
+::::{solution} labcorrect
+:class:  dropdown
+
+::::
+
 
 ### Review and Practice Badges
+
+Here we provide the description of how what  badges are and how they relate to learning. The [detailed procedures](#badges:procedure:rp) and [deadlines](#badges:deadlines:rp) are on the [Badge Detail page](badges).
 
 The tasks for these badges will be defined at the bottom of the notes for each class session *and* aggregated to badge-type specific pages on the left hand side fo the course website. 
 
@@ -380,16 +416,37 @@ You can earn review and practice badges by:
 - revising the PR until it is approved 
 - merging the PR after it is approved
 
-```{admonition} Where do you find assignments?
-:class: checkin, dropdown
+
+
+::::{exercise}
+:label: findwork
+
+Where do you find the work you need to do?
+::::
+
+::::{solution} findwork
+:class:  dropdown
 
 At the end of notes and on the separate pages in the activities section on the left hand side
-```
+::::
 
 **You should create one PR per badge**
 
 
 The key difference between review and practice is the depth of the activity. Work submitted for review and practice badges will be assessed for correctness and completeness. Revisions will be common for these activities, because understanding correctly, without misconceptions, is important. 
+
+
+::::{exercise}
+:label: partialcredit
+
+Will you get partial credit for work that is close to right, but not quite?
+::::
+
+::::{solution} partialcredit
+:class:  dropdown
+
+No. You will have to revise work until it is correct. 
+::::
 
 
 ```{important}
@@ -406,11 +463,24 @@ You can earn an explore badge by:
 - creating an {term}`issue` proposing your idea (consider this ~15 min of work or less)
 - adjusting your idea until given the proceed label 
 - completing your exploration
-- submitting it as a PR 
+- submitting it as a {term}`PR <pull request> 
 - making any requested changes
 - merging the PR after approval 
 
 For these, ideas will almost always be approved, the proposal is to make sure you have the right scope (not too big or too small). Work submitted for explore badges will be assessed for depth beyond practice badges and correctness. Revisions will be more common on the first few as you get used to them, but typically decraese as you learn what to expect.  
+
+
+::::{exercise}
+:label: exploreidea
+
+Are explore badges assigned? 
+::::
+
+::::{solution} preparebadge
+:class: dropdown
+
+No, you can propose topics, but there might be some example ideas.  
+::::
 
 ```{important}
 Revisions are to help you improve your work **and** to get used to the process of making revisions.  Even excellent work can be improved.  The **process** of making revisions and taking good work to excellent or excellent to exceptional is a useful learning outcome.  It will help you later to be really good at working through PR revisions; we will use the same process as code reviews in industry, even though most of it will not be code alone. 

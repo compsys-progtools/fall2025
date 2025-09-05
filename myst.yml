@@ -8,8 +8,6 @@ project:
   authors: [Sarah M. Brown]
   github: https://github.com/compsys-progtools/fall2025
   # To autogenerate a Table of Contents, run "myst init --write-toc"
-  plugins:
-    - mdit-py-emoji
   exclude:
     - README.md
     - LICENSE
@@ -33,7 +31,8 @@ project:
         - file: syllabus/uri_statements.md
         - file: syllabus/communication.md
     - title: Notes
-      children: []
+      children:
+        - pattern: 'notes/2025-*.md'
     - title: Activities
       children:
         - file: activities/kwl.md
@@ -60,17 +59,18 @@ project:
         - file: resources/organization.md
         - file: resources/more_info_on_cpus.md
         - file: resources/windows.md
-        - title: Advice from Spring 2022 Students
-          children: []
-        - title: Advice from Fall 2022 Students
-          children: []
-        - title: Advice from Spring 2023 Students
-          children: []
-        - title: Advice from Fall 2023 Students
-          children: []
-    
+  abbreviations:
+    - CPU: Central Processing Unit
+    - IDE: Integrated Development Environment
+    - URI: University of Rhode Island
+    - TA: Teaching Assistant
+    - PR: Pull Request 
+  numbering:
+    code: false
+    math: false
+    headings: true
 site:
   template: book-theme
-  # options:
+  options:
+      logo: systools.png
   #   favicon: favicon.ico
-  logo: systools.png

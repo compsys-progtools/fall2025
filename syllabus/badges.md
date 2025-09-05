@@ -160,7 +160,7 @@ Prepare work tasks must be done before class so that you are prepared.  Missing 
 
 If you miss class, the experience report should be at least attempted/drafted (though you may not get feedback/confirmation) before the next class that you attend. This is strict, not as punishment, but to ensure that you are able to participate in the next class that you attend. Skipping the experience report for a missed class, may result in needing to do an experience report for the next class you attend to make up what you were not able to complete due to the missing class activities.  
 
-If you miss multiple classes, create a catch-up plan to get back on track by contacting instructor. 
+If you miss multiple classes, create a catch-up plan to get back on track by contacting instructor either with an issue or email. 
 
 (badges:deadlines:rp)=
 ### Review and Practice Badges 
@@ -168,7 +168,7 @@ If you miss multiple classes, create a catch-up plan to get back on track by con
 These badges have 5 stages: 
 - posted: tasks are on the course website([review](activities/review) and [practice](activities/practice)) and an {term}`issue` is created
 - started: one task is attempted and a draft PR is open 
-- completed: all tasks are attempted PR is ready for review, and a review is requested
+- completed: all tasks are attempted {term}`PR <pull request>` is ready for review, and a review is requested
 - earned: PR is approved (by instructor or a TA) and work is merged
 
 ```{tip}
@@ -197,12 +197,13 @@ Explore badges have  5 stages:
 - revision: "request changes" review was given
 - earned: PR approved
 
-Explore badges are feedback-limited. You will not get feedback on subsequent explore badge proposals until you earn the first one.  Once you have one earned, then you can have up to two in progress and two in revision at any given time. At most, you will receive feedback for one explore badge per week, so in order to earn six, your first one must be complete by March 18. 
+Explore badges are feedback-limited. You will not get feedback on subsequent explore badge proposals until you earn the first one.  Once you have one earned, then you can have up to two in progress and two in revision at any given time. At most, you will receive feedback for one explore badge per week, so in order to earn six, your first one must start your first one early enough. 
 
 (badges:deadlines:build)=
 ### Build Badges 
 
-At most one build badge will be evaluated every 4 weeks.  This means that if you want to earn 3 build badges, the first one must be in 8 weeks before the end of the semester, March 4. The second would be due April 1st, and the third submitted by the end of classes, April 29th. 
+At most one build badge will be evaluated every 4 weeks.  This means that if you want to earn 3 build badges, the first one must be in 8 weeks before the end of the semester.
+ <!-- The second would be due April 1st, and the third submitted by the end of classes, April 29th.  -->
 
 <!-- ### Notes
 
@@ -227,6 +228,12 @@ This is for a single example with specific dates, but it is similar for all futu
 
 The columns (and purple boxes) correspond to branches in your KWL repo and the yellow boxes are the things that you have to do. The "critical" box is what you have to wait for us on. The arrows represent PRs (or a local merge for the first one)
 
+::::{margin}
+:::{warning}
+the diagrams do not look great in dark mode, use light mode for them
+:::
+::::::
+
 
 ```{mermaid}
 sequenceDiagram
@@ -245,6 +252,8 @@ sequenceDiagram
         note over M: merge badge PR
     end
 ```
+
+
 
 In the end the commit sequence for this will look like the following:
 
@@ -278,7 +287,7 @@ You can, once you know how, do this offline and do the merge with in the CLI ins
 +++
 
 
-(badges:procedure:reviewpractice)=
+(badges:procedure:rp)=
 ### Review and Practice Badge 
 
 
@@ -300,6 +309,13 @@ flowchart TD
       st[step in phase]
     end
 ```
+
+::::{margin}
+:::{warning}
+the diagrams do not look great in dark mode, use light mode for them
+:::
+::::::
+
 
 This is the general process for review and practice badges 
 
@@ -509,17 +525,21 @@ style earned fill:#2cf
 (badges:process:community)=
 ### Community Badges
 
-You can log them either manualy via files or with help of an action that a past student contributed! 
+You can log them either [manually](badges:process:community:manual)  or with help of an [action](#badges:process:community:logger)  that a past student contributed!  It always ends up with a PR that must be reviewed by `@brownsarahm`
+
+(badges:process:community:logger)=
+#### Logger Action
+
+Your KWL repo has an action called "Community & Explore Badge Logger" that will help you. 
+
+Find that on the left hand list on the Actions tab of your repository. 
+
 ````{margin}
 ````{note}
 You, too could contribute code that helps automate things in class or organize things
 ```
 ````
-
-#### Logger Action
-
-Your KWL repo has an action called "Community & Explore Badge Logger" that will help you
-
+(badges:process:community:manual)=
 #### Manual logging
 These are the instructions from your `community_contributions.md` file in your KWL repo: 
 For each one: 
