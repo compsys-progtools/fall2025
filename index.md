@@ -9,7 +9,10 @@ kernelspec:
 Welcome to the course website for Computer Systems and Programming Tools in Spring 2025.
 
 ::::{warning}
-For fall 2025, I have changed the tool that builds this site, I *think* I fixed all the edi
+For fall 2025, I have changed the tool that builds this site, I *think* I fixed all the edits necessary, but there could be some things that look funny. 
+
+If you find one, create an [issue](https://github.com/compsys-progtools/fall2025/issues)
+:::::
 
 (location)=
 This class meets TuTh 12:30PM - 1:45PM in Library 166 and lab on Monday 3:00PM - 4:45PM in Ballentine Hall 114. 
