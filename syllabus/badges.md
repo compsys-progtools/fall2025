@@ -111,7 +111,10 @@ ax.set_title('Badge Status as of '+ today_string);
 
 Who should you request/assign?
 
+
 ```{list-table}
+:label: PRreviewers
+
 * - course item type
   - issue asignee
   - PR reviewer

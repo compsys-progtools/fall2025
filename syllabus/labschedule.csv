@@ -1,14 +1,15 @@
-date,topic,activity
-2025-01-27,unix philosophy,design a command line tool that would enable a bash script
-2025-02-03,offline branches,"plan for success, clean a messy repo"
-2025-02-10,git plumbing,git plumbing experiment
-2025-02-19,scripting,releases and packaging
-2025-02-24,GitHub Basics,"syllabus quiz, setup"
-2025-03-03,os,hardware simulation
-2025-03-10,tool familiarity,"work on badges, self progress report"
-2025-03-17,"remote, hpc","server work, batch scripts"
-2025-03-24,Machine representation,bits and floats and number libraries
-2025-03-31,Compiling,C compiling experiments
-2025-04-07,git plumbing,"grade calculation script, self reflection"
-2025-04-14,working at the terminal,"organization, setup kwl locally, manage issues"
-2025-04-21,hardware,"self-reflection, work, project consultations"
+date,title
+2025-09-08,Setup and Syllabus Quiz
+2025-09-15,progress and reflection
+2025-09-22,wrapping up
+2025-09-29,Misconception-Busting
+2025-10-06,vocab and processes
+2025-10-20,Branches
+2025-10-27,Plan for Success & Working with files
+2025-11-03,"Install, reflection, and co-working"
+2025-11-10,Planning for Explore and Builds
+2025-11-17,git plumbing
+2025-11-24,reflection
+2025-12-01,scripts
+2025-12-08,floats
+

@@ -6,9 +6,9 @@ Build may be individual or in pairs.
 
 If you have selected to do a project, please use the following template to propose a bulid
 
-<!-- ```{literalinclude} ../_worksheets/build_proposal.md
+ ```{literalinclude} ../_worksheets/build_proposal.md
 ``` 
--->
+
 
 
 The deliverables will depend on what your method is, which depend on your goals. It must be approved and the final submitted will have to meet what is approved.  Some guidance:

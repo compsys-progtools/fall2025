@@ -8,9 +8,10 @@ kernelspec:
 
 Welcome to the course website for Computer Systems and Programming Tools in Spring 2025.
 
+(location)=
 This class meets TuTh 12:30PM - 1:45PM in Ranger 302 and lab on Monday 3:00PM - 4:45PM in Ranger 202. 
 
-This website will contain the syllabus, class notes, and other reference material for the class.
+This website will contain the syllabus, class notes, and other reference material for the class. Links on the site can contain a lot of detail like for example, you can view the [class schedule by hovering here](#classschedule) or the [tentative lab schedule](#labschedule). 
 
 
 ## Navigating the Sections
@@ -40,22 +41,25 @@ command output
 important line, emphasized
 ```
 
-```{admonition} Try it Yourself
-:class: exercise
-Notes will have exercises marked like this
+```{exercise} my-exercise
+
+Notes will sometimes have exercises marked like this, these are ungraded self-assessments
 ```
 
-```{admonition} Question from Class
-:class: question
-Questions that are asked in class, but unanswered at that time will be answered in the notes and marked with a box like this. Long answers will be in the main notes
-```
+::::::{solution} my-exercise
+:label: my-solution
+:class: dropdown
 
-```{admonition} Further reading
+and they will have solutions too
+::::::
+
+
+```{seealso} Further reading
 Notes that are mostly links to background and context will be highlighted like this.  These are optional, but will mostly help you understand code excerpts they relate to.
 ```
 
 ````{margin}
-```{admonition} Question from class
+```{tip} Question from class
 Questions that are asked in class, but unanswered at that time will be answered in the notes and marked with a box like this. Short questions will be in the margin note
 ```
 ````
@@ -64,18 +68,17 @@ Questions that are asked in class, but unanswered at that time will be answered 
 Both notes and assignment pages will have hints from time to time. Pay attention to these on the notes, they'll typically relate to things that will appear in the assignment.
 ```
 
-```{attention} Tip! 
-
+```{tip} Tip! 
 Special tips will be formatted like this
 ```
 
-```{admonition}  Check your Comprehension
-:class: checkin, dropdown
+```{exercise}  Check your Comprehension
+:class: dropdown
 
-Questions to use to check your comprehension will looklike this
+Questions to use to check your comprehension will look like this
 ```
 
-```{admonition} ⚓ Contribute
+```{tip} ⚓ Contribute
 
-Chances to earn community badges will sometimes be marked like this
+Chances to earn community badges will be marked like this
 ```
