@@ -8,8 +8,11 @@ kernelspec:
 
 Welcome to the course website for Computer Systems and Programming Tools in Spring 2025.
 
+::::{warning}
+For fall 2025, I have changed the tool that builds this site, I *think* I fixed all the edi
+
 (location)=
-This class meets TuTh 12:30PM - 1:45PM in Ranger 302 and lab on Monday 3:00PM - 4:45PM in Ranger 202. 
+This class meets TuTh 12:30PM - 1:45PM in Library 166 and lab on Monday 3:00PM - 4:45PM in Ballentine Hall 114. 
 
 This website will contain the syllabus, class notes, and other reference material for the class. Links on the site can contain a lot of detail like for example, you can view the [class schedule by hovering here](#classschedule) or the [tentative lab schedule](#labschedule). 
 
