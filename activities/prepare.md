@@ -37,3 +37,10 @@ Badges will be posted as issues and instructions will be here as well.
 Activities:
 ```{include} ../_prepare/2025-09-09.md
 ```
+## 2025-09-11
+
+[related notes](../notes/2025-09-11)
+
+Activities:
+```{include} ../_prepare/2025-09-11.md
+```
