@@ -141,7 +141,7 @@ Who should you request/assign?
   - `@brownsarahm` & clear other assignees
 ```
 
-
+(badges:deadlines)=
 ## Deadlines 
 
 <!-- Deadlines are flexible in this course so that you can balance your workload across other courses, and instead the **feedback** schedule is fixed.  Weekly feedback hours will be announced and posted. 
@@ -152,6 +152,8 @@ However, leaving all of the work to the end of the semester is not good for you 
 
 
 We do not have a final exam, but URI assigns an exam time for every class.  The date of that assigned exam will be the final due date for all work including all revisions. 
+
+[experience](#badges:deadlines:experience), [review, and practice](badges:deadlines:rp) badges have general deadlines. [Explore](#badges:deadlines:explore) and [build](#badges:deadlines:build) deadlines are based on when you propose and you can propose your own. 
 
 (badges:deadlines:experience)=
 ### Experience badges
@@ -171,11 +173,13 @@ These badges have 5 stages:
 - completed: all tasks are attempted {term}`PR <pull request>` is ready for review, and a review is requested
 - earned: PR is approved (by instructor or a TA) and work is merged
 
+
+These badges badges must be *started* within one week of when they are posted  and *completed* within two weeks. A task is attempted when you have answered the questions or submitted evidence of doing an activity or asked a sincere clarifying question.
+
 ```{tip}
 these badges should *ideally* be started before the next class. This will set you up to make the most out of each class session. However, only prepare for class tasks *must* be done immediately. 
 ```
 
-These badges badges must be *started* within one week of when they are posted  and *completed* within two weeks. A task is attempted when you have answered the questions or submitted evidence of doing an activity or asked a sincere clarifying question.
 
 If a badge is planned, but not started within one week it will become expired and ineligble to be earned. You may request extensions to complete a badge by updating the PR message, these will typically be granted. Extensions for starting badges will only be granted in exceptional circumstances.  
 
@@ -190,14 +194,16 @@ Try to complete revisions quickly, it will be easier for you
 (badges:deadlines:explore)=
 ### Explore Badges 
 
-Explore badges have  5 stages:
+Explore badges are feedback-limited. You will not get feedback on subsequent explore badge proposals until you earn the first one. 
+
+Explore badges have 5 stages:
 - proposed: issue created 
 - in progress: issue is labeled "proceed" by the instructor
 - complete: work is complete, PR created, review requested
 - revision: "request changes" review was given
 - earned: PR approved
 
-Explore badges are feedback-limited. You will not get feedback on subsequent explore badge proposals until you earn the first one.  Once you have one earned, then you can have up to two in progress and two in revision at any given time. At most, you will receive feedback for one explore badge per week, so in order to earn six, your first one must start your first one early enough. 
+ Once you have one earned, then you can have up to two in progress and two in revision at any given time. At most, you will receive feedback for one explore badge per week, so in order to earn six, your first one must start your first one early enough. 
 
 (badges:deadlines:build)=
 ### Build Badges 

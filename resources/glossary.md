@@ -16,7 +16,8 @@ argument
 :  input to a command line program
 
 bash
-:  bash or the bourne-again shell is the primary interface in UNIX based systems
+:  `bash` or the bourne-again {term}`shell` is a popular interface in UNIX based systems
+:  its code originally derived to be fully free an dopen source alternaive to the Bourne shell (`sh`)
 
 bitwise operator
 :  an operation that happens on a bit string (sequence of 1s and 0s). They are typically faster than operations on whole integers. 
@@ -27,10 +28,18 @@ branch
 :  on github and other hosts [branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) are used to create Pull Requests 
 :  implemented with a pointer to a commit, that moves when new commits are added to the current branch
 
+Bourne Shell
+:  an early unix shell developed at Bell labs (`sh`)
+:  the precursor to `bash`
 
 Compiled Code
 :  code that is put through a compiler to turn it into lower level assemlby language before it is executed. must be compiled and re-executed everytime you make a change.
 
+commit 
+:  the basic unit of git
+
+commit message
+:  the plain language description that is required, entered with the `-m` option on `git commit`
 
 detached head
 :  a state of a git repo where the head pointer is set to a commit without a branch also pointing to the commit
@@ -42,9 +51,15 @@ directory
 divergent
 :  git branches that have diverged means that there are different commits that have same parent; there are multipe ways that git could fix this, so you have to tell it what strategy to use
 
+escape
+:  (verb) to insert an <wiki:Escape_character>
+
+
 fixed point number
 :  the concept that the decimal point does not move in the number. Cannot represent as wide of a range of values as a floating point number.
 
+flag
+: another name for an {term}`option`
 
 floating point number
 :  the concept that the decimal can move within the number (ex. scientific notation; you move the decimal based on the exponent on the 10). can represent more numbers than a fixed point number.
@@ -114,8 +129,9 @@ Linker
 
 
 option
-:  also known as a flag, a:  parameter to a command line program that change its behavior, different from an argument
-:  
+:  also known as a flag,
+:  a parameter to a command line program that change its behavior, different from an argument
+
 
 path
 :  the "location" of a file or folder(directory) in a computer
@@ -135,6 +151,11 @@ pull (changes from a repository)
 
 PR
 :  short for {term}`pull request`
+
+
+prompt
+:  the text displayed in the terminal before the content that you type
+:  in bash, customizable with the environment variable `PS1`, see an example [helper tool](https://bash-prompt-generator.org/)
 
 
 push (changes to a repository)
@@ -188,13 +209,16 @@ tree objects
 
 
 yml
-:  :  see YAML
+:  common file extension for {term}`YAML` files
 
-[YAML](https://yaml.org/):  
-:  :  a file specification that stores key-value pairs. It is commonly used for configurations and settings. 
+
+yaml  
+:  a file specification that stores key-value pairs. It is commonly used for configurations and settings.  [main docs](https://yaml.org/)
 
 
 zsh
-:  zsh or z shell is built on top of the bash shell and contains new features
+:  zsh or z shell is a {term}`shell` that contains new features that break conventions that `bash` adheres to but is faster at some things [see its FAQ](https://zsh.sourceforge.io/FAQ/)
+:  a unix shell with a more permissive license (MIT) than `bash` (GPL)
+:  a shell that is based on the KornShell (`ksh`) which was based on the Bourne shell initially
 
 ::::::::::

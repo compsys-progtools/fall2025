@@ -69,6 +69,8 @@ project:
     code: false
     math: false
     headings: true
+  references:
+    pyglossary:  https://docs.python.org/3/glossary
 site:
   template: book-theme
   options:

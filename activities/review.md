@@ -28,3 +28,10 @@ Activities:
 Activities:
 ```{include} ../_review/2025-09-09.md
 ```
+## 2025-09-11
+
+[related notes](../notes/2025-09-11)
+
+Activities:
+```{include} ../_review/2025-09-11.md
+```
