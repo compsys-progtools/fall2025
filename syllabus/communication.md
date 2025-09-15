@@ -29,7 +29,7 @@ help_df = pd.read_csv('../_data/help_hours.csv')
 
 ## Announcements
 
-Announcements will be made via {term}`GitHub` Release. You can view them [online in the releases page](https://github.com/compsys-progtools/spring2025/releases) or you can get notifications by watching the {term}`repository`, choosing "Releases" under custom [see GitHub docs for instructions with screenshots](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository). You can choose {term}`GitHub` only or e-mail notificaiton [from the notification settings page](https://github.com/settings/notifications)
+Announcements will be made via {term}`GitHub` Release. You can view them [online in the releases page](https://github.com/compsys-progtools/fall2025/releases) or you can get notifications by watching the {term}`repository`, choosing "Releases" under custom [see GitHub docs for instructions with screenshots](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository). You can choose {term}`GitHub` only or e-mail notificaiton [from the notification settings page](https://github.com/settings/notifications)
 
 ```{warning}
 For the first week announcements will be made by BrightSpace too, but after that, all course activities will be only on GitHub. 
@@ -53,8 +53,9 @@ put this on a {term}`branch` called `watch_community_badge` and title your PR "C
 
 
 ::::::{csv-table} Hours
-:::{include} ../_data/help_hours.csv
-:::
+Day,Time,Location,Host
+Monday, 5-6pm, Tyler 134, Dr Brown
+Friday, 4:30-5:30, Tyler 134, Dr Brown
 ::::::
 
 <!-- ```{code-cell}
