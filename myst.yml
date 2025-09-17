@@ -36,7 +36,7 @@ project:
     - title: Activities
       children:
         - file: activities/kwl.md
-        - file: activities/team.md
+        - file: activities/community.md
         - file: activities/review.md
         - file: activities/prepare.md
         - file: activities/practice.md
