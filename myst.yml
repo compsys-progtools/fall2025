@@ -70,7 +70,7 @@ project:
     math: false
     headings: true
   references:
-    pyglossary:  https://docs.python.org/3/glossary
+    pyglossary:  https://docs.python.org/3/
 site:
   template: book-theme
   options:

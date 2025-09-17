@@ -15,6 +15,12 @@ add (new files in a repository)
 argument
 :  input to a command line program
 
+base
+: the shared {term}`commit` of a branch
+
+base branch
+: the branch that a PR or merg will add changes **into**
+
 bash
 :  `bash` or the bourne-again {term}`shell` is a popular interface in UNIX based systems
 :  its code originally derived to be fully free an dopen source alternaive to the Bourne shell (`sh`)
