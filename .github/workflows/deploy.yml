@@ -37,6 +37,7 @@ jobs:
         run: |
             pip install -r requirements.txt 
             npm install -g mystmd
+            pip install git+https://github.com/compsys-progtools/courseutils@main
       - name: Build HTML Assets
         run: |
             # Set the port for our local Jupyter process
