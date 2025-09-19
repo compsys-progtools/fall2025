@@ -1,3 +1,11 @@
+---
+file_format: mystnb
+kernelspec:
+    name: python3
+---
+
+
+
 # Grading Overview
 
 This section of the syllabus describes the principles and mechanics of the grading for the course.
@@ -139,6 +147,13 @@ Read the suggestions and revise the work until it is correct.
 (grading:penaltyfree)=
 ## Penalty-free Zone 
 
+
+````{code-block} python
+:tags: [hide-cell]
+from cspt import EARLY_BIRD_DEADLINE
+````
+
+
 ::::{tab-set}
 
 
@@ -147,7 +162,7 @@ Read the suggestions and revise the work until it is correct.
 
 We will use developer tools to do everything in this class; in the long term this will benefit you, but it makes the first few weeks hard, so **mistakes in the first few weeks cannot hurt your grade** as long as you learn eventually. 
 
-Deadlines are *extra flexible* for 3 weeks while you figure things out. 
+Deadlines are *extra flexible* until {eval}`EARLY_BIRD_DEADLINE` weeks while you figure things out. 
 :::
 
 :::{tab-item} Full Detail

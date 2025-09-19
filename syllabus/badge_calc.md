@@ -58,7 +58,7 @@ The total influence of each badge is as follows:
 grade_constants.influence_df
 ```
 
-(bonustable)=
+(bonusdefn)=
 ## Bonuses
 
 In addition to the weights for each badge, there also bonuses that will automatically applied to your grade at the end of the semester.  These are for longer term patterns, not specific assignments.  You earn these while workng on other assignments, not separately. 
@@ -69,7 +69,7 @@ the grade plans on the grading page and the thresholds above assume you earn the
 ```
 
 ```{list-table}
-
+:label: bonustable
 *   - Name
     - Definition
     - Influence

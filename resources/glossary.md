@@ -70,6 +70,9 @@ flag
 floating point number
 :  the concept that the decimal can move within the number (ex. scientific notation; you move the decimal based on the exponent on the 10). can represent more numbers than a fixed point number.
 
+fork
+:  a related repository, a full copy of the repo
+
 git
 :  a version control tool; it's a fully open source and always free tool, that can be hosted by anyone or used without a host, locally only.
 
@@ -96,7 +99,9 @@ git Workflow
 
 HEAD
 :  a file in the .git directory that indicates what is currently:  checked out (think of the current branch)
-:  
+
+hidden file
+:  a file with a name that starts with `.` that is not visible in default settings for file explorer/finder or with `ls` unless you use  `-a` 
 
 merge
 :  putting two branches together so that you can access files in another branch that are not available in yours
@@ -167,6 +172,9 @@ prompt
 push (changes to a repository)
 :  to put whatever you were working on from your local machine onto a remote copy of the repository in a version control system.
 
+redirect
+:  connecting the output of a command to an alternative {term}`stream`
+:  syntax `>` for write mode and `>>` for append mode
 
 relative path
 :  the path defined **relative** to another file or the current working directory; may start with a name, includes a single file name or may start with `./`
@@ -201,6 +209,16 @@ shell
 ssh 
 :  allows computers to safely connect to networks (such as when we used an ssh key to clone our github repos)
 
+STDOUT
+:  standard output {term}`stream`
+
+
+STDERR
+:  standard error {term}`stream`
+
+stream
+:  a flow of data from one location to another in a computer 
+:  includes three <wiki:Standard_streams>
 
 templating
 :  templating is the idea of changing the input or output of a system. For instance, the Jupyter book, instead of outputting the markdown files as markdown files, displays them as HTML pages (with the contents of the markdown file).

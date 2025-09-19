@@ -3,7 +3,8 @@ numpy
 pyppeteer
 pandas
 lxml
-jupyter-book
+mystmd
+jupyter-server
 seaborn
 sphinx-panels
 plotly
