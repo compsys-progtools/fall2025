@@ -55,7 +55,7 @@ directory
 :  a collection of files typically created for organizational purposes
 
 divergent
-:  git branches that have diverged means that there are different commits that have same parent; there are multipe ways that git could fix this, so you have to tell it what strategy to use
+:  git branches that have diverged means that there are different commits that have same {term}`parent`; there are multipe ways that git could fix this, so you have to tell it what strategy to use
 
 escape
 :  (verb) to insert an <wiki:Escape_character>
@@ -86,7 +86,7 @@ GitHub
 
 
 git objects
-:  FIXME something (a file, directory) that is used in git; has a hash associated with it
+:  see {term}`object`
 
 
 git Plumbing commands
@@ -96,31 +96,23 @@ git Plumbing commands
 git Workflow
 :  a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner
 
+hash
+:  the output of a {term}`hash function`
+:  (in git) the identifier for git {term}`objects <object>`
+
+
+hash function
+:  the actual function that does the {term}`hashing` of the input (a key, an object, etc.)
+
+
+hashing
+:  transforming an input of arbitrary length to a unique fixed length output (the output is called a hash; used in hash tables and when git hashes commits). 
 
 HEAD
 :  a file in the .git directory that indicates what is currently:  checked out (think of the current branch)
 
 hidden file
 :  a file with a name that starts with `.` that is not visible in default settings for file explorer/finder or with `ls` unless you use  `-a` 
-
-merge
-:  putting two branches together so that you can access files in another branch that are not available in yours
-
-
-merge conflict
-:  when two branches to be merged edit the same lines and git cannot automatically merge the changes
-
-
-mermaid
-:  mermaid syntax allows user to create precise, detailed diagrams in markdown files.
-
-
-hash function
-:  the actual function that does the hashing of the input (a key, an object, etc.)
-
-
-hashing
-:  transforming an input of arbitrary length to a unique fixed length output (the output is called a hash; used in hash tables and when git hashes commits). 
 
 
 integrated development environment
@@ -139,10 +131,31 @@ Linker
 :  a program that links together the object files and libraries to output an executable file.
 
 
+merge
+:  putting two branches together so that you can access files in another branch that are not available in yours
+
+
+merge conflict
+:  when two branches to be merged edit the same lines and git cannot automatically merge the changes
+
+
+mermaid
+:  mermaid syntax allows user to create precise, detailed diagrams in markdown files.
+
+object
+:  (in git) unit of storage in git, stored in the {term}`object database`, one of four types: commit, tree, tag or blob
+:  (in git) identified by a hash, cannot be changed
+
+
+object database
+:  (in git) not a formal database, but a directory within a folder, that makes it a git {term}`repository` stores the git {term}`objects`, generally found at the {term}`path`: `.git/objects`
+
 option
 :  also known as a flag,
 :  a parameter to a command line program that change its behavior, different from an argument
 
+parent
+:  (in git) the commit that came before the cuurent commit
 
 path
 :  the "location" of a file or folder(directory) in a computer
@@ -156,8 +169,8 @@ pull (changes from a repository)
 :  download changes from a remote repository and update the local repository with these changes.
 
 
-[pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-:  allow other users to review and request changes on branches. after a pull request recieves approval you can merge the changed content to the main branch.
+pull request
+:  allow other users to review and request changes on branches. after a pull request recieves approval you can merge the changed content to the main branch. (a [github feature](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) that is also common to other hosts, not a git feature)
 
 
 PR
@@ -228,8 +241,8 @@ terminal
 :  a program that makes shell visible for us and allows for interactions with it
 
 
-tree objects
-:  type of git object in git that helps store multiple files with their hashes (similar to directories in a file system)
+tree 
+:  (in git) type of git {term}`object` in git that helps store multiple files with their hashes (similar to directories in a file system)
 
 
 yml
