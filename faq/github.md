@@ -7,7 +7,7 @@
 ````
  -->
 ## I can't push to my repository, I get an error that updates were rejected
-````{toggle}
+
 If your error looks like this...
 ```
 ! [rejected] main -> main (fetch first)
@@ -28,64 +28,37 @@ git pull
 ```
 
 You'll probably have to [resolve a merge conflict](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
-````
+
 
 
 
 
 
 ## My command line says I cannot use a password
-````{toggle}
+
 GitHub has [strong rules](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/about-authentication-to-github) about authentication
 You need to use SSH with a public/private key; HTTPS with a [Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) or use the [GitHub CLI](https://cli.github.com/) [auth](https://cli.github.com/manual/gh_auth_login)
-
-````
-
-<!-- ### My .ipynb file isn't showing in the staging area or didn't push
-````{toggle}
-.ipynb files are json that include all of the output, including tables as html and plots as svg, so, unlike plain code files, they don't play well with
-version control.  
-
-Your portfolio has `*/*.ipynb` in the `.gitignore` file, so that these files do
-not end up in your repository.  Instead, you'll convert your notebooks to
-[Myst Markdown](https://myst-parser.readthedocs.io/en/latest/) with
-[jupytext](https://jupytext.readthedocs.io/) via a
-[precommit hook](https://jupytext.readthedocs.io/en/latest/using-pre-commit.html).
-
-Your portfolio has the code to do this already, what you should do is make sure
-that `pre-commit` is installed and then run `pre-commit install`  
-(see your portfolio's README.md file for more detail)
-
-If this doesn't work, you can follow the alterntive in the porfolio readme.
-
-If that doesn't work, and you have time before the deadline, create an issue to
-get help.  
-
-As a last resort, use the jupyter interface to download (File > Download as > ...)your notebook as `.md`
-if avialable or `.py` if not and then move that file from your Downloads folder
-to your repository.  We'll set up another workflow for future work
-```` -->
-
-
-<!-- ### My copy of the site won't compile
-````{toggle}
-If there's an error your notebook it can't complete running. You can allow it to run if the error is on purpose by changing settings as mentioned on the [formatting](portfolio/formatting) page.
-
-```` -->
 
 
 (preemptive-merge)=
 ## Help! I accidentally merged the Badge Pull Request before my assignment was graded
-````{toggle}
+
 
 That's ok. You can fix it.
 
-**note: these instructions use the main branch the way we use the badge branches and the feedback branch the way we use the main branch in this course**
+::::::{attention} 
+these instructions use the main branch the way we use the badge branches and the feedback branch the way we use the main branch in this course
+:::::::::
 
-You'll have to work offline and use GitHub in your browser together for this fix. The following instuctions will work in terminal on Mac or Linux or in GitBash for Windows. (see [Programming Environment section on the tools page](programming-env)).
+::::::{margin}
+:::::{admonition} ⚓ Community bage opportunity
+revise this to use branch names as in this coure 
+:::::
+:::::::
 
-First get the url to clone your repository (unless you already have it cloned then skip ahead): on the main page for your repository, click the green "Code" button, then copy the url that's show
-![screenshot of copying .git url](../img/get_clone_url.png)
+You'll have to work offline and use GitHub in your browser together for this fix. The following instuctions will work in terminal on Mac or Linux or in GitBash for Windows. (see [Programming Environment section on the tools page](#programming-env)).
+
+First get the url to clone your repository 
 
 Next open a terminal or GitBash and type the following.
 
@@ -93,7 +66,7 @@ Next open a terminal or GitBash and type the following.
 git clone
 ```
 
-then past your url that you copied. It will look something like this, but the last part will be the current assignment repo and your username.
+then past your url that you copied. It will look something like this, but the last part will be your repo
 
 ```
 git clone https://github.com/rhodyprog4ds/portfolio-brownsarahm.git
@@ -194,8 +167,8 @@ Now you're done!
 
 If you have trouble, create an issue and tag `@@rhodyprog4ds/fall20instructors` for help.
 
-````
+
 ## For an Assignment, should we make a new branch for every assignment or do everything in one branch?
-````
+
 Doing each new assignment in its own branch is best practice. In a typical software development flow once the codebase is stable a new branch would be created for each new feature or patch. This analogy should help you build intuition for this GitHub flow and using branches.  Also, pull requests are the best way for us to give you feedback. Also, if you create a branch when you do not need it, you can easily merge them after you are done, but it is hard to isolate things onto a branch if it's on main already.
-````
+
