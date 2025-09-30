@@ -74,5 +74,6 @@ project:
 site:
   template: book-theme
   options:
+      folders: true
       logo: systools.png
       favicon: systools-fav.ico
