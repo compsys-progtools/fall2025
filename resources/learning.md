@@ -8,7 +8,7 @@ for this class.
 ![man throwing computer monitor in anger, clip from The IT Crowd](https://i.gifer.com/5SNC.gif)
  -->
 
- Begin a great programmer does not require memorizing all of the specific commands, but instead knowing the common patterns and how to use them to interpret others' code and write your own.  Being efficient requires knowing how to use tools and how to let the computer do tedious tasks for you.  This is how this course is designed to help you, but you have to get practice with these things. 
+ Being a great programmer does not require memorizing all of the specific commands, but instead knowing the common patterns and how to use them to interpret others' code and write your own.  Being efficient requires knowing how to use tools and how to let the computer do tedious tasks for you.  This is how this course is designed to help you, but you have to get practice with these things. 
 
 Using reference materials frequently is a built in part of programming, most languages have built in help as a part of the language for this reason. These tools can help you when you are writing cod eand forget a specific bit of syntax, but these tools will not help you *read* code or debug environment issues. You also have to know how to effectively use these tools.  
 Knowing the common abstractions we use in computing and recognizing them when they look a little bit differently will help you with these more complex tasks.  Understanding what is common when you move from one environment to another or to 

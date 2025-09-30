@@ -2,6 +2,7 @@
 file_format: mystnb
 kernelspec:
     name: python3
+    display_name: Python3
 ---
 
 
@@ -148,11 +149,10 @@ Read the suggestions and revise the work until it is correct.
 ## Penalty-free Zone 
 
 
-````{code-block} python
-:tags: [hide-cell]
-from cspt import EARLY_BIRD_DEADLINE
+````{code-cell} python3
+:tags: [remove-input]
+import cspt
 ````
-
 
 ::::{tab-set}
 
@@ -162,7 +162,7 @@ from cspt import EARLY_BIRD_DEADLINE
 
 We will use developer tools to do everything in this class; in the long term this will benefit you, but it makes the first few weeks hard, so **mistakes in the first few weeks cannot hurt your grade** as long as you learn eventually. 
 
-Deadlines are *extra flexible* until {eval}`EARLY_BIRD_DEADLINE` weeks while you figure things out. 
+Deadlines are *extra flexible* until {eval}`cspt.EARLY_BIRD_DEADLINE_STR` weeks while you figure things out. 
 :::
 
 :::{tab-item} Full Detail

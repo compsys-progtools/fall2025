@@ -28,6 +28,8 @@ bash
 bitwise operator
 :  an operation that happens on a bit string (sequence of 1s and 0s). They are typically faster than operations on whole integers. 
 
+blob
+:  (in git) a type of git {term}`object` that contains the content of a file in a file named with the hash of the content
 
 branch
 :  an isolated version of the project in a repository where changes do not impact other changes
@@ -89,7 +91,7 @@ git objects
 :  see {term}`object`
 
 
-git Plumbing commands
+git plumbing command
 :  low level git commands that allow the user to access the inner workings of git.
 
 
@@ -148,7 +150,7 @@ object
 
 
 object database
-:  (in git) not a formal database, but a directory within a folder, that makes it a git {term}`repository` stores the git {term}`objects`, generally found at the {term}`path`: `.git/objects`
+:  (in git) not a formal database, but a directory within a folder, that makes it a git {term}`repository` stores the git {term}`objects <object>`, generally found at the {term}`path`: `.git/objects`
 
 option
 :  also known as a flag,

@@ -1,4 +1,4 @@
-port="8888"
+port="8897"
 
 # Define environment variables that will be used by MyST
 # We'll use the values of these variables in our Jupyter server as well.
