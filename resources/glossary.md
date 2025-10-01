@@ -162,10 +162,14 @@ parent
 path
 :  the "location" of a file or folder(directory) in a computer
 
+plumbing
+:  (git command type) the internal workings- a toolkit for a VCS
 
 pointer
 :  a variable that stores the address of another variable
 
+porcelain
+:  (git command type) the user friendly VCS
 
 pull (changes from a repository)
 :  download changes from a remote repository and update the local repository with these changes.
