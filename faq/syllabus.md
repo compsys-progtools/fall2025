@@ -3,9 +3,9 @@
 
 
 ## How much does activity x weigh in my grade?
-```{toggle}
+
 There is no specific weight for any activities, because your grade is based on earning the badges. Everything at a level must be complete and correct. 
-```
+
 
 
 ## How do I keep track of my earned badges?

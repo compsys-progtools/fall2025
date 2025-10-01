@@ -8,4 +8,4 @@ jupyter-server
 seaborn
 sphinx-panels
 plotly
-git+https://github.com/brownsarahm/sphinxcontrib-mermaid@cdnupdate
+ipykernel

@@ -191,6 +191,13 @@ redirect
 :  connecting the output of a command to an alternative {term}`stream`
 :  syntax `>` for write mode and `>>` for append mode
 
+ref
+:  short for {term}`reference`
+
+reference
+:  (in git) a friendly name for accessing a commit, comes in three types: heads, remotes, and tags (which are also {term}`objects <object>`)
+:  shortened to ref
+
 relative path
 :  the path defined **relative** to another file or the current working directory; may start with a name, includes a single file name or may start with `./`
 
@@ -234,6 +241,9 @@ STDERR
 stream
 :  a flow of data from one location to another in a computer 
 :  includes three <wiki:Standard_streams>
+
+tag
+:  (in git) a {term}`object` that is like a branch in that it points to a commit, but also like a commit in that it is immutable and does not move. 
 
 templating
 :  templating is the idea of changing the input or output of a system. For instance, the Jupyter book, instead of outputting the markdown files as markdown files, displays them as HTML pages (with the contents of the markdown file).

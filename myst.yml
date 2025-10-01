@@ -66,9 +66,9 @@ project:
     - TA: Teaching Assistant
     - PR: Pull Request 
   numbering:
-    code: false
+    code: true
     math: false
-    headings: true
+    headings: false
   references:
     pyglossary:  https://docs.python.org/3/
 site:
