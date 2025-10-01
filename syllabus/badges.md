@@ -25,7 +25,6 @@ import calendar
 import pandas as pd
 import numpy as np
 import seaborn as sns
-from myst_nb import glue
 # style note: when I wrote this code, it was not all one cell. I merged the cells
 # for display on the course website, since Python is not the main outcome of this course
 # import constants from cspt
@@ -100,8 +99,6 @@ colorbar.set_ticks([colorbar.vmin + r / n_statuses * (0.5 + i) for i in range(n_
 colorbar.set_ticklabels(list(status_numbers_hm.keys()))
 # add a title
 today_string = today.isoformat()
-glue('today',today_string,display=False)
-glue('today_notdisplayed',"not today",display=False)
 ax.set_title('Badge Status as of '+ today_string); 
 ```
 
