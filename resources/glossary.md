@@ -13,7 +13,7 @@ add (new files in a repository)
 :  the step that stages/prepares files to be committed to a repository from a local branch
 
 argument
-:  input to a command line program
+:  required input to a command in the shell 
 
 base
 : the shared {term}`commit` of a branch
@@ -40,14 +40,18 @@ Bourne Shell
 :  an early unix shell developed at Bell labs (`sh`)
 :  the precursor to `bash`
 
-Compiled Code
-:  code that is put through a compiler to turn it into lower level assemlby language before it is executed. must be compiled and re-executed everytime you make a change.
+command
+:  an instruction given to a program
+:  (informal) sort of like an individual function 
 
 commit 
 :  the basic unit of git
 
 commit message
 :  the plain language description that is required, entered with the `-m` option on `git commit`
+
+compiled code
+:  code that is put through a compiler to turn it into lower level assemlby language before it is executed. must be compiled and re-executed everytime you make a change.
 
 detached head
 :  a state of a git repo where the head pointer is set to a commit without a branch also pointing to the commit
@@ -132,6 +136,9 @@ issue
 Linker
 :  a program that links together the object files and libraries to output an executable file.
 
+markdown
+:  a lightwight markup syntax that is human readable and parsable into HTML formatting [cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+:  see also  {term}`msyt`
 
 merge
 :  putting two branches together so that you can access files in another branch that are not available in yours
@@ -140,6 +147,8 @@ merge
 merge conflict
 :  when two branches to be merged edit the same lines and git cannot automatically merge the changes
 
+myst
+:  Markedly Structured Text, a flavor of {term}`markdown` designed to create publication quality documents in markdown, inspired by {term}`reStructuredText`
 
 mermaid
 :  mermaid syntax allows user to create precise, detailed diagrams in markdown files.
@@ -182,6 +191,8 @@ pull request
 PR
 :  short for {term}`pull request`
 
+program
+:  an installed piece of software; importantly distinct from an individual {term}`command`, e.g. git
 
 prompt
 :  the text displayed in the terminal before the content that you type
@@ -217,6 +228,8 @@ remote
 repository
 :  a project folder with tracking information in it in the form of a .git directory in it
 
+reStructuredText
+:  an plaintext markup syntax and parser system used for both inline documentation and creating websites and other types of documents [docs](https://docutils.sourceforge.io/rst.html)
 
 ROM (Read-Only Memory)
 :  Memory that only gets read by the CPU and is used for instructions

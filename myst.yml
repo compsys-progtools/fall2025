@@ -65,6 +65,7 @@ project:
     - URI: University of Rhode Island
     - TA: Teaching Assistant
     - PR: Pull Request 
+    - ACM: Association for Computing Machinery
   numbering:
     code: true
     math: false
