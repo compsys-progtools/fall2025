@@ -54,11 +54,11 @@ put this on a {term}`branch` called `watch_community_badge` and title your PR "C
 
 ::::::{csv-table} Hours
 Day,Time,Location,Host
-Monday, 5-6pm, Tyler 134, Dr Brown
 Monday, 12:00-1:30pm, Tyler 139, Thomas
-Wednesday, 4-6pm, Tyler 052 & Zoom (check org page), Ayman
-Thursday, 3:30-5:00, Tyler 139, Thomas
-Friday, 4:30-5:30, Tyler 134, Dr Brown
+Monday, 5-6pm, Tyler 134, Dr Brown
+Wednesday, 4:30-6:00pm, Tyler 052 & Zoom (check org page), Ayman
+Thursday, 3:30-5:00pm, Tyler 139, Thomas
+Friday, 4:30-5:30pm, Tyler 134, Dr Brown
 ::::::
 
 <!-- ```{code-cell}
