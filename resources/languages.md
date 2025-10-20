@@ -13,7 +13,7 @@
 
 ```{list-table}
 :header-rows: 1
-
+:label: bashcommands
 * - command
   - explanation
 * - `pwd`
@@ -32,7 +32,7 @@
   - write redirect
 * - `>>`
   - append redirect
-* - `rm file`
+* - `rm <file>`
   - remove (delete) `file`
 * - `cat`
   - concatenate a file to standard out (show the file contents)
@@ -40,6 +40,8 @@
   - Moves file from path to another (can be used to rename only)
 * - `cp <file> <path>`
   - Copies the content of the file from into a new file (can be with or without the same name)
+* - `find <pattern>`
+  - search the file system (paths) for matches to a pattern
 ```
 
 ## git commands
