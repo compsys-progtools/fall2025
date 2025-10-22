@@ -155,6 +155,7 @@ merge
 merge conflict
 :  when two branches to be merged edit the same lines and git cannot automatically merge the changes
 
+
 myst
 :  Markedly Structured Text, a flavor of {term}`markdown` designed to create publication quality documents in markdown, inspired by {term}`reStructuredText`
 
