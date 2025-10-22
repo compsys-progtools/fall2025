@@ -66,6 +66,9 @@ divergent
 escape
 :  (verb) to insert an <wiki:Escape_character>
 
+exponent
+:  (in floats) the part of the bitstring that is used as a power of 2 to scale the number
+:  11 bits for 64 bit floats
 
 fixed point number
 :  the concept that the decimal point does not move in the number. Cannot represent as wide of a range of values as a floating point number.
@@ -75,6 +78,11 @@ flag
 
 floating point number
 :  the concept that the decimal can move within the number (ex. scientific notation; you move the decimal based on the exponent on the 10). can represent more numbers than a fixed point number.
+
+fraction
+:  (in float) the bits representing the fractional part of the number
+:  also called the significand
+:  52 bits for a 64 bit float
 
 fork
 :  a related repository, a full copy of the repo
@@ -161,6 +169,9 @@ object
 object database
 :  (in git) not a formal database, but a directory within a folder, that makes it a git {term}`repository` stores the git {term}`objects <object>`, generally found at the {term}`path`: `.git/objects`
 
+one's complement
+:  a representation where negative numbers are represented by flipping the bits
+
 option
 :  also known as a flag,
 :  a parameter to a command line program that change its behavior, different from an argument
@@ -244,6 +255,11 @@ sh
 shell
 :  a command line interface; allows for access to an operating system
 
+sign bit
+:  a single bit used to indicate if a number is positive (0) or negative (-1)
+
+significand
+:  (in floats) another name for the {term}`fraction`
 
 ssh 
 :  allows computers to safely connect to networks (such as when we used an ssh key to clone our github repos)
@@ -273,6 +289,9 @@ terminal
 tree 
 :  (in git) type of git {term}`object` in git that helps store multiple files with their hashes (similar to directories in a file system)
 
+
+two's complement
+:  a representation where to negate a number the bits are flipped and 1 is added to the number
 
 yml
 :  common file extension for {term}`YAML` files
