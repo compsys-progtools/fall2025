@@ -74,7 +74,7 @@ fixed point number
 :  the concept that the decimal point does not move in the number. Cannot represent as wide of a range of values as a floating point number.
 
 flag
-: another name for an {term}`option`
+: another name for a single character {term}`option`
 
 floating point number
 :  the concept that the decimal can move within the number (ex. scientific notation; you move the decimal based on the exponent on the 10). can represent more numbers than a fixed point number.
