@@ -140,6 +140,8 @@ interpreted code
 issue
 :  provides the ability to easily track ideas, feedback, tasks, or bugs. branches can be created for specific issues. an issue is open when it is created. pull requests have the ability to close issues. see more in the [docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
 
+job
+:  (in HPC) a set of work that will be run. 
 
 Linker
 :  a program that links together the object files and libraries to output an executable file.
