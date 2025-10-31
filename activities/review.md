@@ -126,3 +126,10 @@ Activities:
 Activities:
 ```{include} ../_review/2025-10-28.md
 ```
+## 2025-10-30
+
+[related notes](../notes/2025-10-30)
+
+Activities:
+```{include} ../_review/2025-10-30.md
+```
