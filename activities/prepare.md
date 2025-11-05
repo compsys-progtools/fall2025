@@ -28,7 +28,8 @@ Badges will be posted as issues and instructions will be here as well.
 
 
 ```{include} ../_review/2024-09-10.md
-``` -->
+```
+ -->
 
 ## 2025-09-09
 
@@ -148,4 +149,11 @@ Activities:
 
 Activities:
 ```{include} ../_prepare/2025-11-04.md
+```
+## 2025-11-06
+
+[related notes](../notes/2025-11-06)
+
+Activities:
+```{include} ../_prepare/2025-11-06.md
 ```

@@ -12,7 +12,8 @@ Review badges will help you to reinforce what we do in class and guide you to pr
 
 Activities:
 ```{include} ../_review/2024-09-05.md
-``` -->
+``` 
+-->
 
 ## 2025-09-04
 
@@ -132,4 +133,11 @@ Activities:
 
 Activities:
 ```{include} ../_review/2025-10-30.md
+```
+## 2025-11-04
+
+[related notes](../notes/2025-11-04)
+
+Activities:
+```{include} ../_review/2025-11-04.md
 ```

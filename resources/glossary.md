@@ -63,6 +63,9 @@ directory
 divergent
 :  git branches that have diverged means that there are different commits that have same {term}`parent`; there are multipe ways that git could fix this, so you have to tell it what strategy to use
 
+documentation ecosystem
+:  the set of tools and syntax for creating, processing, and distributing documentation for a particular language
+
 escape
 :  (verb) to insert an <wiki:Escape_character>
 

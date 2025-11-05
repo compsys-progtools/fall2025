@@ -64,3 +64,11 @@ These students technically submitted these under different grading structures, b
 
 
 For special formatting, use [jupyter book's documentation](https://jupyterbook.org/content/myst.html).  
+
+
+## Ideas from this semester's Q&A
+
+
+- [](#explore:ollama)
+:::::{embed} #explore:ollama
+::::::

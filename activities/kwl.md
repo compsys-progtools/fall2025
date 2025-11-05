@@ -89,36 +89,11 @@ To be updated
 -->
 
 
-## Required Files
+##  Files
 
 This lists the files for reference, but mostly you can keep track by badge issue checklists. 
 ::::::{warning}
 this is mostly not needed, but kept just in case
 :::::::::
 
-<!-- 
-```{code-cell} ipython3
-:tags: ["remove-input"]
 
-# import pandas as pd
-
-# check_df = pd.read_csv('../kwl.csv')
-
-# # FIXME: update grade free dates
-# # penalty_free_dates = ['2022-01-24','2023-01-26']
-# # #bonus_dates = ['2022-12-05','2022-12-07','2022-12-12']
-# # gz = {True:'penalty-free',False:'full-requirements'}
-# # zoner = lambda d: gz[d in penalty_free_dates]
-# # check_df['zone'] = check_df['date'].apply(zoner)
-
-# check_df.sort_values(by='date').style.hide(axis="index")
-``` 
- -->
-
-<!-- 
--->
-
-<!-- 
-bonus = {True:'bonus',False:'single'}
-zoner = lambda d: gz[d in grade_free_dates]
-check_df['zone'] = check_df['date'].apply(zoner) -->

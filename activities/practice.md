@@ -14,13 +14,7 @@ the day's material in a similar, but distinct way. They represent the minimum ba
 Badges will be posted as issues and instructions will be here as well. 
 ::::
 
-<!-- ## 2024-09-05
 
-[related notes](../notes/2024-9-05)
-
-Activities:
-```{include} ../_practice/2024-09-05.md
-``` -->
 ## 2025-09-04
 
 [related notes](../notes/2025-09-04)
@@ -139,4 +133,11 @@ Activities:
 
 Activities:
 ```{include} ../_practice/2025-10-30.md
+```
+## 2025-11-04
+
+[related notes](../notes/2025-11-04)
+
+Activities:
+```{include} ../_practice/2025-11-04.md
 ```
