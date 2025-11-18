@@ -56,7 +56,8 @@ put this on a {term}`branch` called `watch_community_badge` and title your PR "C
 Day,Time,Location,Host
 Monday, 12:00-1:30pm, Tyler 139, Thomas
 Monday, 5-6pm, Tyler 134, Dr Brown
-Wednesday, 4:30-6:00pm, Tyler 052 & Zoom (check org page), Ayman
+Tuesday, 1:45-2:40pm, Library & Zoom (check org page), Ayman
+Thursday, 1:45-2:40pm, Library & Zoom (check org page), Ayman
 Thursday, 3:30-5:00pm, Tyler 139, Thomas
 Friday, 4:30-5:30pm, Tyler 134, Dr Brown
 ::::::
