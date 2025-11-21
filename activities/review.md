@@ -155,3 +155,17 @@ Activities:
 Activities:
 ```{include} ../_review/2025-11-18.md
 ```
+## 2025-11-18
+
+[related notes](../notes/2025-11-18)
+
+Activities:
+```{include} ../_review/2025-11-18.md
+```
+## 2025-11-20
+
+[related notes](../notes/2025-11-20)
+
+Activities:
+```{include} ../_review/2025-11-20.md
+```
