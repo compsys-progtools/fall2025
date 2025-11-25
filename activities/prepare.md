@@ -185,3 +185,10 @@ Activities:
 Activities:
 ```{include} ../_prepare/2025-11-25.md
 ```
+## 2025-11-27
+
+[related notes](../notes/2025-11-27)
+
+Activities:
+```{include} ../_prepare/2025-11-27.md
+```
