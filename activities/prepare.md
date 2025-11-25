@@ -73,6 +73,15 @@ Activities:
 Activities:
 ```{include} ../_prepare/2025-09-25.md
 ```
+
+## 2025-09-30
+
+[related notes](../notes/2025-09-30)
+
+Activities:
+```{include} ../_prepare/2025-09-30.md
+```
+
 ## 2025-10-02
 
 [related notes](../notes/2025-10-02)
