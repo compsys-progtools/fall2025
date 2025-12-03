@@ -181,15 +181,15 @@ To calculate your final grade at the end of the semester, a script will count yo
 see [cspt docs](https://compsys-progtools.github.io/courseutils/cli.html#cspt-grade) for CLI version
 
 ```{code-cell} ipython3
-example_student = {'experience' :22, 'lab': 13, 'review': 0,'practice': 18,
-                   'explore': 3,
+example_student = {'experience' :22, 'lab': 13, 'review': 0,'practice': 24,
+                   'explore': 0,
                    'build' :0,
                  'community': 0,
                  'hack':0,
                  'unstuck': 0,
-                 'descriptive': 1,
-                 'early': 1,
-                  'question':10 }
+                 'descriptive': 0,
+                 'early': 0,
+                  'question':0 }
 ```
 
 ```{code-cell} ipython3
