@@ -13,3 +13,6 @@ Also this class in my opinion is a class thats more important than any calculus 
 
 By starting early, you not only avoid the pressure of rushing to complete assignments at the last minute but also give yourself the chance to truly understand these foundational skills.  Early submissions allow you to receive feedback and make necessary revisions, rather than submitting everything in bulk and scrapping to get everything done last second.
 
+The best way to succeed in this class is to reach out when you need help, keep up with badges, and to make an effort to fully understand the material you're learning. 
+When you're lost or not understanding a topic or need help doing a badge, attend office hours and ask questions. By communicating to the TAs and professors, you're showing
+effort to learn, and you are getting oppurtunity to understand the material. Keeping up with work regarding the badges is important, as they may seem easy enough to do, but can pile up quickly if you start being lazy with due dates. Ultimately, by asking questions, communicating in class, and keeping up with work, you can ace this class no problem.
